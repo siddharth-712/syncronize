@@ -1,0 +1,131 @@
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper {
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.input__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__label {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.input__box {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.btn__join,
+.btn__leave {
+  background: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.btn__join:hover,
+.btn__leave:hover {
+  background: #2b824c;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.create__newRoom {
+  color: #4aed88;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+}
+
+.create__newRoom:hover {
+  color: #368654;
+  border-color: #368654;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  background: #1c1e29;
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside__Inner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.username {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  margin-bottom: 20px;
+}
+
+.btn__leave {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.CodeMirror {
+  min-height: 100vh;
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}

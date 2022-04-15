@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  /* background: red; */
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  /* padding: 3px; */
+  margin-bottom: 30px;
+}
+
+.logo__Image {
+  /* height: 70px; */
+}
+
+.logo__title {
+  font-size: 15px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.logo__title > p {
+  font-weight: 500;
+  color: gray;
+}
